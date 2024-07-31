@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: mYsmall;
+}
+
+@font-face {
+    font-family: mYsmall;
+    src: url(../c:\Users\DELL\html-day6\fonts\tiger-icon.ttf);
+}
+
+.container {
+    background-color: #e5e5e5;
+    height: 600px;
+}
+
+.flex {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.imag img {
+    object-fit: fill;
+    width: 350px;
+    margin-left: 350px;
+}
+
+.content p {}
+
+@media and (max-width: 768px) {
+    .mobil_flex{
+        
+    }
+}
